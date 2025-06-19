@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  base: "/harshit-portfolio",
+  base: "/portfolioharshit",
 })
