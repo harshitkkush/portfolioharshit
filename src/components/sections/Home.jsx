@@ -32,6 +32,14 @@ export const Home = () => {
             >
               Contact Me
             </a>
+            <a
+              href="https://drive.google.com/file/d/1MjdFXotZtzibQq8NRNIyn1Sy5GrlT3pR/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-yellow-500 text-black py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(250,204,21,0.4)]"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </RevealOnScroll>
