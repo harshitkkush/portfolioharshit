@@ -32,7 +32,6 @@ export const Home = () => {
             >
               Contact Me
             </a>
-            
           </div>
         </div>
       </RevealOnScroll>
