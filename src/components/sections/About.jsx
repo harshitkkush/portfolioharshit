@@ -10,7 +10,7 @@ export const About = () => {
     "CSS",
   ];
 
-  const backendSkills = ["Node.js", "MongoDB",];
+  const backendSkills = ["Core Java","SQL","Spring Boot","MySQL","Git-Github", "MongoDB"];
 
   return (
     <section
@@ -93,16 +93,16 @@ planning and execution.
                   </p>
                 </div>
 
-               {/* <div>
+               { <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Intern at Bharat Heavy Eletricals Limited (July 2025 - August 2025){" "}
                   </h4>
                   <p>
                     Assisted in building front-end components and integration
                     REST APIs
                   </p> 
-                </div> */}
+                </div>}
               </div>
             </div>
           </div>

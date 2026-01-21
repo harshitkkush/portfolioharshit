@@ -14,15 +14,21 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Spotify Clone </h3>
+              <h3 className="text-xl font-bold mb-2"> URL Shortener Web Application </h3>
               <p className="text-gray-400 mb-4">
-              Built a Spotify clone using HTML, CSS and JavaScript, replicating core features like a responsive music player, playlist
-              management, and a sleek UI.Integrated JavaScript to implement interactive features such as play/pause
-              controls,seek bar functionality, volume adjustments, and dynamic playlist updates.Tested the clone extensively on
-              multiple browsers and screen sizes to ensure consistent performance and compatibilty.
+              Built a full-stack URL Shortener using Spring Boot with Thymeleaf for the frontend and MySQL as the database. The application allows users to convert long URLs into short, unique links and seamlessly redirects users to the original URLs.
+Key features include:
+Clean and responsive UI using Thymeleaf templates
+
+Backend built with Spring Boot, Spring MVC, and Spring Data JPA
+MySQL database integration with Hibernate ORM
+Automatic short code generation and persistent URL mapping
+Server-side validation and error handling
+Successfully deployed on Railway, using environment-based configuration for production
+This project helped me strengthen my understanding of Java backend development, MVC architecture, database integration, and real-world deployment workflows.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["HTML", "CSS", "JavaScript"].map((tech, key) => (
+                {["Spring Boot", "Spring MVC", "Spring Data JPA","MySQL","Thymeleaf"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -36,7 +42,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://urlshortner-production-2c00.up.railway.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -51,13 +57,21 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Credit Card Fraud Detection</h3>
+              <h3 className="text-xl font-bold mb-2">
+MoneyMap – Expense Tracking Web App</h3>
               <p className="text-gray-400 mb-4">
-                ML-powered data visualization platform with predictive analytics
-                and interactive reports.
+                MoneyMap is a simple and user-friendly expense tracking application built using React.js. It helps users track their daily expenses, manage spending categories, and get a clear overview of their financial habits.
+Key Features:
+Add, edit, and delete income and expenses
+Categorize transactions for better tracking
+Real-time expense summary and balance calculation
+Clean and responsive UI built with React components
+Tech Stack:
+React.js, JavaScript, HTML, CSS
+This project helped me strengthen my understanding of React hooks, state management, component-based architecture, and building real-world frontend applications.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "Numpy", "Pandas", "Streamlit"].map((tech, key) => (
+                {["React.js", "JavaScript", "HTML", "CSS"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -74,7 +88,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://moneymap-olive.vercel.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
