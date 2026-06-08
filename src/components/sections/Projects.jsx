@@ -104,15 +104,17 @@ This project helped me strengthen my understanding of React hooks, state managem
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Recipe Website</h3>
+              <h3 className="text-xl font-bold mb-2">AI Resume Analyzer</h3>
               <p className="text-gray-400 mb-4">
-              Developed a recipe website using ReactJS and MealDB API, enabling users to browse, search, and filter recipes
-              seamlessly.Utilized ReactJS components and hooks to create a responsive, modular and efficient user interface that
-              works across all devices.Integrated MealDB API to fetch real-time recipe data including detailedingredients,
-              instructions, and images enhancing user engagement.
+              Developed an end-to-end AI-powered Resume Analyzer using ReactJS, Axios, Spring Boot, and Spring AI to evaluate
+resumes against job descriptions.Built REST APIs for PDF resume processing, text extraction, prompt generation,
+and AI-driven analysis workflows. Integrated both local LLMs through Ollama and cloud-based models via Google
+Gemini API to generate ATS scores, skill-gap analysis, and personalized recommendations. Designed a modular full-
+stack architecture with responsive UI, scalable backend services, and efficient LLM response handling for real-time
+resume insights
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["ReactJs", "HTML", "Tailwind", "MealDB"].map(
+                {["ReactJS", "Spring Boot", "Spring AI", "Ollama", "Gemini API"].map(
                   (tech) => (
                     <span
                       key={tech}

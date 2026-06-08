@@ -10,7 +10,7 @@ export const About = () => {
     "CSS",
   ];
 
-  const backendSkills = ["Core Java","SQL","Spring Boot","MySQL","Git-Github", "MongoDB"];
+  const backendSkills = ["Core Java","SQL","Spring Boot","MySQL","Git-Github", "MongoDB","AWS Cloud Basics"];
 
   return (
     <section
@@ -70,11 +70,11 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.Tech in Electronics and Communication Engineering </strong> - ABES Engineering College
+                  <strong className="text-blue-500"> B.Tech in Electronics and Communication Engineering </strong> - ABES Engineering College
                   (2022-2026)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Embedded System, VLSI...
+                  Relevant Coursework: Data Structures, Web Development, Embedded & IoT Systems...
                 </li>
               </ul>
             </div>
@@ -82,7 +82,9 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h4 className="font-semibold">
+                  <h4 className="font-semibold color bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(239,68,68,0.2)] transition
+                    ">
                     {" "}
                     Light De Literacy(NGO Member) (2022 - 2024){" "}
                   </h4>
@@ -94,13 +96,15 @@ planning and execution.
                 </div>
 
                { <div>
-                  <h4 className="font-semibold">
+                  <h4 className="font-semibold color bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 
+                                    hover:shadow-[0_2px_8px_rgba(239,68,68,0.2)] transition
+                    ">
                     {" "}
                     Intern at Bharat Heavy Eletricals Limited (July 2025 - August 2025){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                     Participated in developing an IoT-based Visitor Management System to streamline corporate entry protocols. Learned the use of IoT sensors and communication protocols for real-time visitor tracking. Collaborated with the Digital Transformation team to align IoT applications with existing corporate security
+infrastructure.
                   </p> 
                 </div>}
               </div>
